@@ -41,4 +41,4 @@ def upload():
     return jsonify({'error': 'File type not allowed'})  
 
 if __name__ == "__main__":
-    app.run(debug=True,host="0.0.0.0")
+    app.run()
